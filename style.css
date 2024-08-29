@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Roboto&display=swap');
+body {
+    background: rgb(206, 226, 238);
+    color: rgb(14, 13, 13);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    display: block;
+   
+    margin: 5px 10px;
+  }
+  nav{
+    padding: 0.625rem;
+    background-color: #333;
+    color: #fff;
+    font-size: 1.25rem;
+    cursor: pointer;
+  }
+  h1{
+    font-family: 'Moon Dance', cursive;
+    color: rgb(4, 3, 61);
+    text-align: center;
+    font-size: 3.125rem;
+  }
+
+  ul {
+    margin: 0;
+   
+  }
+  li * {
+    float: left;
+  }
+  li, h2 {
+    clear:both;
+    list-style:none;
+  }
+ 
+  button {
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 16px;  
+    background-color: rgb(144, 178, 211);
+    border-color: rgba(25, 2, 87, 0.897);
+    color: rgb(9, 4, 31);
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+  }
+  button:hover {
+    color: #333;
+  }
+  /* Heading */
+  h2,
+  label[for='new-task'] {
+    color: rgb(27, 27, 27);
+    font-weight: 700;
+    font-size: 15px;
+    border-bottom: 2px solid #333;
+    padding: 30px 0 10px;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  input[type="text"] {
+    margin: 0;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 10px;
+    border: 1px solid rgb(59, 58, 58);
+    background: #fff;
+    border-radius: 6px;
+    font-family: Lato, sans-serif;
+    color: rgb(71, 70, 70);
+  }
+  input[type="text"]:focus {
+    color: rgb(22, 21, 21);
+  }
+  
+  /* New Task */
+  label[for='new-task'] {
+    display: block;
+    margin: 0 0 20px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  input#new-task {
+    width: 600px;
+  }
+  p > button:hover {
+    color: rgb(4, 80, 4);
+  }
+  h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+  }
+  /* Task list */
+  li {
+    overflow: hidden;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+  }
+  li > input[type="checkbox"] {
+    margin: 0 10px;
+    position: relative;
+    top: 15px;
+  }
+  li > label {
+    font-size: 18px;
+    line-height: 40px;
+    width: 237px;
+    padding: 0 0 0 11px;
+  }
+  li >  input[type="text"] {
+    width: 226px;
+  }
+  li > .delete:hover {
+    color: #dd1313;
+  }
+  li > .edit:hover {
+    color: #1400ca;
+  }
+  /* Completed */
+  #completed-tasks label {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  /* Edit Task */
+  ul li input[type=text] {
+    display:none;
+  }
+  
+  ul li.editMode input[type=text] {
+    display:block;
+  }
+  
+  ul li.editMode label {
+    display:none;
+  }
+  .edit{
+    margin: 5px 10px;
+  }
+  .delete{
+    margin: 5px 0px;
+  }
+  .bottom-container{
+    background-color: rgb(176, 203, 219);
+    text-align: center;
+    padding: 20px 0px;
+    margin-top: 50px;
+  }
+  .discription {
+    color: rgb(26, 32, 32);
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
